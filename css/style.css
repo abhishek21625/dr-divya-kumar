@@ -261,7 +261,7 @@ section {
 
 .section-title {
   font-size: 2.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   text-align: center;
 }
 
@@ -299,7 +299,7 @@ section {
 
 .about-content p {
   color: #666;
-  line-height: 1.8;
+  /* line-height: 1.8; */
   margin-bottom: 15px;
 }
 
@@ -397,7 +397,7 @@ h4 {
 
 .plans-title h1 {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -673,23 +673,17 @@ h4 {
 
 /* Header Section */
 .header-section {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
   margin-bottom: 60px;
   animation: fadeInDown 0.8s ease-out;
 }
 
 .header-section h2 {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 600;                        
-  margin-bottom: 10px;
-  background: linear-gradient(135deg,
-      var(--primary-purple) 0%,
-      var(--primary-purple) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* margin-bottom: 10px; */
 }
 
 /* .header-section p {
@@ -796,14 +790,14 @@ h4 {
 
 .treatment-title {
   font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-weight: 600;
+  color: black;
   margin-bottom: 12px;
   transition: color 0.3s ease;
 }
 
 .treatment-card:hover .treatment-title {
-  color: var(--secondary);
+  color: var(--primary-purple);
 }
 
 .treatment-description {
@@ -816,7 +810,7 @@ h4 {
 .treatment-badge {
   display: inline-block;
   background: var(--primary-purple);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -1312,12 +1306,13 @@ h4 {
   object-fit: cover;
 }
 
-.gallery-overlay {
+.index-gallery-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
+  /* height: 100%; */
   background: rgba(233, 30, 99, 0.8);
   display: flex;
   align-items: center;
@@ -1326,11 +1321,11 @@ h4 {
   transition: opacity 0.3s ease;
 }
 
-.gallery-item:hover .gallery-overlay {
+.gallery-item:hover .index-gallery-overlay {
   opacity: 1;
 }
 
-.gallery-overlay i {
+.index-gallery-overlay i {
   font-size: 2rem;
   color: white;
 }
