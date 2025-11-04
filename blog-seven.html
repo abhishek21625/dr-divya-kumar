@@ -41,14 +41,16 @@
                     <img src="images/imgi_1_logo.png" alt="" class="">
                 </a>
             </div>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-
 
                     <!-- Services Dropdown -->
                     <li class="nav-item dropdown">
@@ -79,10 +81,9 @@
                             <li><a class="dropdown-item" href="pregnancy-in-obesity.html">Pregnancy In Obesity</a></li>
                             <li><a class="dropdown-item" href="recurrent-pregnancy-loss.html">Recurrent Pregnancy
                                     Loss</a></li>
-                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal cannulation</a></li>
+                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal Cannulation</a></li>
                         </ul>
                     </li>
-
 
                     <!-- Gallery Dropdown -->
                     <li class="nav-item dropdown">
@@ -96,6 +97,7 @@
                         </ul>
                     </li>
 
+                    <!-- Events Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-medium" href="#" id="eventDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -107,12 +109,24 @@
                         </ul>
                     </li>
 
-
                     <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
+
+                <!-- Book Appointment Visible Only on Mobile/Tablet -->
+                <ul class="navbar-nav d-lg-none">
+                    <li class="nav-item">
+                        <a href="contact.html" class="btn btn-gradient w-100 mt-3">Book Appointment</a>
+                    </li>
+                </ul>
+
             </div>
-            <a href="" class="btn btn-gradient">Book Appointment</a>
+
+            <!-- Book Appointment Visible Only on Desktop -->
+            <div class="d-none d-lg-block">
+                <a href="contact.html" class="btn btn-gradient">Book Appointment</a>
+            </div>
+
         </div>
     </nav>
 
@@ -380,8 +394,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed with <i class="bi bi-heart-fill"
-                        style="color: var(--primary-pink);"></i></p>
+                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed & Developed by <a style="text-decoration: none; color: #bbb;"  href="https://brandingwaale.com/"> Brandingwaale Webtech</a></p>
             </div>
         </div>
     </footer>

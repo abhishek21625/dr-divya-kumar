@@ -39,14 +39,16 @@
                     <img src="images/imgi_1_logo.png" alt="" class="">
                 </a>
             </div>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-
 
                     <!-- Services Dropdown -->
                     <li class="nav-item dropdown">
@@ -77,10 +79,9 @@
                             <li><a class="dropdown-item" href="pregnancy-in-obesity.html">Pregnancy In Obesity</a></li>
                             <li><a class="dropdown-item" href="recurrent-pregnancy-loss.html">Recurrent Pregnancy
                                     Loss</a></li>
-                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal cannulation</a></li>
+                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal Cannulation</a></li>
                         </ul>
                     </li>
-
 
                     <!-- Gallery Dropdown -->
                     <li class="nav-item dropdown">
@@ -94,6 +95,7 @@
                         </ul>
                     </li>
 
+                    <!-- Events Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-medium" href="#" id="eventDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -105,12 +107,24 @@
                         </ul>
                     </li>
 
-
                     <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
+
+                <!-- Book Appointment Visible Only on Mobile/Tablet -->
+                <ul class="navbar-nav d-lg-none">
+                    <li class="nav-item">
+                        <a href="contact.html" class="btn btn-gradient w-100 mt-3">Book Appointment</a>
+                    </li>
+                </ul>
+
             </div>
-            <a href="contact.html" class="btn btn-gradient">Book Appointment</a>
+
+            <!-- Book Appointment Visible Only on Desktop -->
+            <div class="d-none d-lg-block">
+                <a href="contact.html" class="btn btn-gradient">Book Appointment</a>
+            </div>
+
         </div>
     </nav>
 
@@ -120,7 +134,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-12 text-center">
                     <h1 class="title ff-heading " data-aos="fade-up" data-aos-delay="200">Contact Us</h1>
-                    <p class="lead mb-0" data-aos="fade-up" data-aos-delay="300">Reach out to us for appointments, queries, or guidance.</p>
+                    <p class="lead mb-0" data-aos="fade-up" data-aos-delay="300">Reach out to us for appointments,
+                        queries, or guidance.</p>
                     <div class="breadcrumb-custom" data-aos="fade-up" data-aos-delay="400">
                         <a href="index.html" style="text-decoration: none;color: var(--primary-pink);"> Home </a>/
                         Contact Us
@@ -132,122 +147,117 @@
 
     <section>
         <div class="container">
-            <div class="contact-content">
-                <div class="card-custom contact-info-card" data-aos="fade-right" data-aos-delay="200">
-                    <h2>Contact Information</h2>
+            <div class="row">
+                <div class="col-lg-6 pb-4">
+                    <div class="card-custom contact-info-card" data-aos="fade-right" data-aos-delay="200">
+                        <h2>Contact Information</h2>
 
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-phone-alt"></i>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone Number</h4>
+                                <p>+91 8178019467</p>
+                                <small style="color: #999;">Available 24x7</small>
+                            </div>
                         </div>
-                        <div class="info-content">
-                            <h4>Phone Number</h4>
-                            <p>+91 8178019467</p>
-                            <small style="color: #999;">Available 24x7</small>
-                        </div>
-                    </div>
 
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-envelope"></i>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email Address</h4>
+                                <p>drdivyakumargynaec@gmail.com</p>
+                                <small style="color: #999;">We'll respond within 24 hours</small>
+                            </div>
                         </div>
-                        <div class="info-content">
-                            <h4>Email Address</h4>
-                            <p>drdivyakumargynaec@gmail.com</p>
-                            <small style="color: #999;">We'll respond within 24 hours</small>
-                        </div>
-                    </div>
 
-                    <!-- <div class="info-item">
-                <div class="info-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="info-content">
-                    <h4>Moolchand Hospital</h4>
-                    <p>Lajpat Nagar III, New Delhi - 110024</p>
-                </div>
-            </div> -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clinic-medical"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Dr. Divya Kumar</h4>
+                                <p>Home Clinic - House No. 1343, Sector - 21</p>
+                                <small style="color: #999;">Mon-Sat: 6PM-8PM
+                                    By Appointment</small>
+                            </div>
+                        </div>
 
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-clinic-medical"></i>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Accord Superspeciality Hospital</h4>
+                                <p>Faridabad, Haryana, 121007</p>
+                                <small style="color: #999;">24x7 Available</small>
+                            </div>
                         </div>
-                        <div class="info-content">
-                            <h4>Hots Medicare Clinic</h4>
-                            <p>M-8, Lajpat Nagar II, New Delhi - 110024</p>
-                        </div>
-                    </div>
 
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-hospital"></i>
+                        <div class="social-links">
+                            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
                         </div>
-                        <div class="info-content">
-                            <h4>Accord Superspeciality Hospital</h4>
-                            <p>House no 1343, Sector 21D</p>
-                            <small style="color: #999;">6-8 pm Mon to Sat (by appointment)</small>
-                        </div>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
 
-                <div class="card-custom form-card" data-aos="fade-left" data-aos-delay="200">
-                    <h2>Send Us a Message</h2>
+                <div class="col-lg-6">
 
-                    <!-- <div class="success-message" id="successMessage">
-                <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
-            </div> -->
+                    <div class="card-custom form-card" data-aos="fade-left" data-aos-delay="200">
+                        <h2>Send Us a Message</h2>
 
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                        </div>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                        </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="phone">Phone Number *</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number"
-                                required>
-                        </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number"
+                                    required>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="subject">Services</label>
-                            <select class="form-select" id="subject">
-                                <option value="">Select Our Services</option>
-                                <option value="appointment">Book an Appointment</option>
-                                <option value="consultation">General Consultation</option>
-                                <option value="ivf">IVF Treatment Inquiry</option>
-                                <option value="pregnancy">Pregnancy Care</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
+                            <div class="form-group">
+                                <label for="subject">Services</label>
+                                <select class="form-select" id="subject">
+                                    <option value="">Select Our Services</option>
+                                    <option value="appointment">Book an Appointment</option>
+                                    <option value="consultation">General Consultation</option>
+                                    <option value="ivf">IVF Treatment Inquiry</option>
+                                    <option value="pregnancy">Pregnancy Care</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea class="form-control" id="message" placeholder="Write your message here..."
-                                required></textarea>
-                        </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea class="form-control" id="message" placeholder="Write your message here..."
+                                    required></textarea>
+                            </div>
 
-                        <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i> Send Message
-                        </button>
-                    </form>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
 
-            <div class="map-section">
+            <div class="map-section mt-5">
                 <div class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.5267896845657!2d77.23698731508188!3d28.56838098244094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3778c2e9aab%3A0x8b1e93fba14df30a!2sMoolchand%20Hospital!5e0!3m2!1sen!2sin!4v1635678910123!5m2!1sen!2sin"
@@ -309,8 +319,9 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed with <i class="bi bi-heart-fill"
-                        style="color: var(--primary-pink);"></i></p>
+                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed & Developed by <a
+                        style="text-decoration: none; color: #bbb;" href="https://brandingwaale.com/"> Brandingwaale
+                        Webtech</a></p>
             </div>
         </div>
     </footer>

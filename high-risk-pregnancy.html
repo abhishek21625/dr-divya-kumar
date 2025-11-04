@@ -38,10 +38,13 @@
                     <img src="images/imgi_1_logo.png" alt="" class="">
                 </a>
             </div>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
@@ -59,20 +62,25 @@
                             <li><a class="dropdown-item" href="endometriosis.html">Endometriosis</a></li>
                             <li><a class="dropdown-item" href="uterine-bleeding.html">Uterine Bleeding</a></li>
                             <li><a class="dropdown-item" href="high-risk-pregnancy.html">High Risk Pregnancy</a></li>
-                            <li><a class="dropdown-item" href="heterotopic-pregnancy.html">Heterotopic Pregnancy</a></li>
+                            <li><a class="dropdown-item" href="heterotopic-pregnancy.html">Heterotopic Pregnancy</a>
+                            </li>
                             <li><a class="dropdown-item" href="icsi.html">ICSI Treatment</a></li>
                             <li><a class="dropdown-item" href="infertility.html">Infertility</a></li>
                             <li><a class="dropdown-item" href="mymectomy.html">Myomectomy</a></li>
-                            <li><a class="dropdown-item" href="pregnancy-in-diabetes-mellitus.html">Pregnancy In Diabetes Mellitus</a></li>
-                            <li><a class="dropdown-item" href="pregnancy-in-hypertension.html">Pregnancy In Hypertension</a></li>
-                            <li><a class="dropdown-item" href="pregnancy-in-twins.html">Pregnancy In Multiple Twins</a></li>
-                            <li><a class="dropdown-item" href="pregnancy-in-rh-compatibility.html">Pregnancy In RH Compatibility</a></li>
+                            <li><a class="dropdown-item" href="pregnancy-in-diabetes-mellitus.html">Pregnancy In
+                                    Diabetes Mellitus</a></li>
+                            <li><a class="dropdown-item" href="pregnancy-in-hypertension.html">Pregnancy In
+                                    Hypertension</a></li>
+                            <li><a class="dropdown-item" href="pregnancy-in-twins.html">Pregnancy In Multiple Twins</a>
+                            </li>
+                            <li><a class="dropdown-item" href="pregnancy-in-rh-incompatibility.html">Pregnancy In RH
+                                    Incompatibility</a></li>
                             <li><a class="dropdown-item" href="pregnancy-in-obesity.html">Pregnancy In Obesity</a></li>
-                            <li><a class="dropdown-item" href="recurrent-pregnancy-loss.html">Recurrent Pregnancy Loss</a></li>
-                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal cannulation</a></li>
+                            <li><a class="dropdown-item" href="recurrent-pregnancy-loss.html">Recurrent Pregnancy
+                                    Loss</a></li>
+                            <li><a class="dropdown-item" href="tubal-cannulation.html">Tubal Cannulation</a></li>
                         </ul>
                     </li>
-
 
                     <!-- Gallery Dropdown -->
                     <li class="nav-item dropdown">
@@ -86,6 +94,7 @@
                         </ul>
                     </li>
 
+                    <!-- Events Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-medium" href="#" id="eventDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,12 +106,24 @@
                         </ul>
                     </li>
 
-
                     <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
+
+                <!-- Book Appointment Visible Only on Mobile/Tablet -->
+                <ul class="navbar-nav d-lg-none">
+                    <li class="nav-item">
+                        <a href="contact.html" class="btn btn-gradient w-100 mt-3">Book Appointment</a>
+                    </li>
+                </ul>
+
             </div>
-            <a href="" class="btn btn-gradient">Book Appointment</a>
+
+            <!-- Book Appointment Visible Only on Desktop -->
+            <div class="d-none d-lg-block">
+                <a href="contact.html" class="btn btn-gradient">Book Appointment</a>
+            </div>
+
         </div>
     </nav>
 
@@ -129,7 +150,7 @@
         <div class="container">
             <div class="row">
                 <!-- Sidebar Services -->
-                <div class="col-lg-3 mb-4" style="overflow: hidden;">
+                <div class="col-lg-3 mb-4  order-2 order-md-2 order-lg-1" style="overflow: hidden;">
                     <h4 data-aos="fade-right">Our Services</h4>
                     <div class="about-card" data-aos="fade-right" data-aos-delay="100">
                         <h5><i class="fas fa-check-circle"></i> Blastocyst Culture</h5>
@@ -183,7 +204,7 @@
                 </div>
 
                 <!-- Main Content -->
-                <div class="col-lg-9">
+                <div class="col-lg-9  order-1 order-md-1 order-lg-2 mb-5 mb-lg-0">
                     <div class="sticky-top" style="top: 100px;">
                         <div class="info-box" data-aos="fade-left">
                             <h3>High Risk Pregnancy</h3>
@@ -369,7 +390,7 @@
         <div class="container">
             <div class="doctor-content">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 order-2 order-md-2 order-lg-1">
                         <div class="doctor-info">
                             <h3>Meet Our Specialist</h3>
                             <h4 style="margin-bottom: 1rem; font-weight: 600;">Dr. Divya Kumar</h4>
@@ -379,9 +400,15 @@
                             <p style="margin-top: 1rem;">With a passion for helping couples achieve their dreams of
                                 parenthood, Dr. Divya combines cutting-edge medical technology with compassionate
                                 patient care.</p>
+                            <!-- <div class="social-links">
+                                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div> -->
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 order-1 order-md-1 order-lg-2 mb-4 mb-lg-0">
                         <div>
                             <img src="images/imgi_3_dr.divya-profile.webp" alt="" class="img-fluid">
                         </div>
@@ -439,8 +466,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed with <i class="bi bi-heart-fill"
-                        style="color: var(--primary-pink);"></i></p>
+                <p>&copy; 2025 Dr. Divya Kumar. All Rights Reserved. | Designed & Developed by <a style="text-decoration: none; color: #bbb;"  href="https://brandingwaale.com/"> Brandingwaale Webtech</a></p>
             </div>
         </div>
     </footer>
