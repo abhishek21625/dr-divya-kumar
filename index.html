@@ -234,7 +234,7 @@
                             for a gynecologist in Faridabad, Dr. Divya is the trusted expert you can turn to for
                             comprehensive care.</p>
 
-                        <div class="row mt-4">
+                        <div class="row mt-4" id="statistics">
                             <div class="col-md-4">
                                 <div class="stat-box">
                                     <div class="stat-number" data-target="19">0</div>
@@ -1354,15 +1354,23 @@
             <p>Had an IVF Failure?</p>
             <h2>Take a Second Opinion From Our IVF Specialist</h2>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
-                <button class="btn btn-white">
+
+                <!-- Book Online -->
+                <a href="contact.html" target="_blank" class="btn btn-white">
                     <i class="bi bi-calendar-check me-2"></i>Book Online
-                </button>
-                <button class="btn btn-white">
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/919876543210?text=Hello%20Doctor%2C%20I%20need%20a%20second%20opinion%20regarding%20IVF."
+                    target="_blank" class="btn btn-white">
                     <i class="bi bi-whatsapp me-2"></i>WhatsApp
-                </button>
-                <button class="btn btn-white">
+                </a>
+
+                <!-- Call Now -->
+                <a href="tel:+919876543210" class="btn btn-white">
                     <i class="bi bi-telephone me-2"></i>Call Now: +91 98765 43210
-                </button>
+                </a>
+
             </div>
         </div>
     </section>
@@ -1483,7 +1491,7 @@
 
             // Trigger when in viewport
             function onScroll() {
-                const section = document.getElementById("about");
+                const section = document.getElementById("statistics");
                 let position = section.getBoundingClientRect().top;
                 let windowHeight = window.innerHeight;
 
